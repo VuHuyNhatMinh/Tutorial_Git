@@ -1,8 +1,5 @@
-from libs import cal
-
 def main():
-    print("Hello World!")
+    print("This is frontend branch")
 
 if __name__ == "__main__":
     main()
-    cal()
