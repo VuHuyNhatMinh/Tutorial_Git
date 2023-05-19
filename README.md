@@ -9,9 +9,10 @@ Git vs Github
 2. Tools:
     + Command Line
     + GUI: Git Desktop, Git Kraken, Git Tower, ...
-
 3. Baisc commands
-    + Local Server
+    ## SSH Keys
+    Ref: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+    Search for key: ls | grep "key name"
     ## Setup and Config 
     ### Setup
         git config --global user.name "Your Name"
@@ -19,9 +20,13 @@ Git vs Github
     ### Create
         git init 
         git clone "https://github.com/url"
-
-    + Remote Server
-    ### SSH Keys
-    Ref: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-    Search for key: ls | grep "key name"
-# References
+    ## Most Used
+        git add .
+        git commit
+        git reset
+        git push 
+        git pull
+4. Advanced
+    ## Branching
+    ## Git Flow
+# References    
