@@ -12,6 +12,7 @@ Git vs Github
 3. Baisc commands
     ## SSH Keys
     Ref: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+    
     Search for key: ls | grep "key name"
     ## Setup and Config 
     ### Setup
@@ -21,7 +22,7 @@ Git vs Github
         git init 
         git clone "https://github.com/url"
     ## Most Used
-        git add .
+        git add
         git commit
         git reset
         git push 
@@ -30,3 +31,5 @@ Git vs Github
     ## Branching
     ## Git Flow
 # References    
+1. [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk)
+2.  [Git Branching and Merging - Detailed Tutorial](https://www.youtube.com/watch?v=Q1kHG842HoI)
